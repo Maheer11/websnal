@@ -37,7 +37,7 @@ export interface ReviewPeriod {
   overallRating: ReviewRating
   strengths: string[]        // key strength areas for this cycle
   managerComment: string     // featured pull-quote from manager
-  managedBy?: string         // "Director of Operations, Nalot"
+  managedBy?: string         // "Director of Operations, Moftech"
   staffResponse?: string     // optional staff acknowledgement
   developmentGoals?: string[]
 }
@@ -113,9 +113,9 @@ export const staff: StaffMember[] = [
     title: 'Managing Director',
     department: 'Executive',
     level: 1,
-    email: 'i.adeyemi@nalot.com.ng',
+    email: 'i.adeyemi@moftech.com.ng',
     phone: '+234 802 000 0001',
-    bio: 'Over 22 years of experience leading multi-sector infrastructure and technology projects across Nigeria. Founding director of Nalot Multisystems Limited with a track record of delivering federal and state government contracts on schedule.',
+    bio: 'Over 22 years of experience leading multi-sector infrastructure and technology projects across Nigeria. Founding director of Moftech Construzion Ltd. with a track record of delivering federal and state government contracts on schedule.',
     yearsExperience: 22,
     yearsWithCompany: 22,
     qualifications: [
@@ -161,7 +161,7 @@ export const staff: StaffMember[] = [
         name: 'Federal Ministry of Works Office Complex',
         location: 'Abuja, FCT', role: 'Executive Sponsor', roleType: 'lead', year: '2024',
         status: 'completed', deliveredOnTime: true,
-        description: 'Executive sponsor for the design and construction of a Grade-A federal office complex, integrating structural, mechanical & electrical, and full IT infrastructure under a single Nalot delivery team.',
+        description: 'Executive sponsor for the design and construction of a Grade-A federal office complex, integrating structural, mechanical & electrical, and full IT infrastructure under a single Moftech delivery team.',
         outcome: 'Handed over on schedule and within the approved contract sum. Commended directly by the Honourable Minister.',
       },
       {
@@ -177,16 +177,16 @@ export const staff: StaffMember[] = [
         period: 'Annual Review — 2024', type: 'annual',
         overallRating: 'Exceptional',
         strengths: ['Strategic Leadership', 'Multi-stakeholder Management', 'Programme Delivery', 'Client & Government Relations'],
-        managerComment: 'Ibrahim has delivered three of the most complex federal contracts in Nalot\'s history simultaneously in 2024 — each on time, each to standard. His ability to hold the confidence of both our government clients and our internal teams under that pressure is genuinely rare.',
-        managedBy: 'Board of Directors, Nalot Multisystems',
-        developmentGoals: ['Formalise succession planning for key programme director roles', 'Expand Nalot\'s southern Nigeria regional presence by Q3 2025'],
+        managerComment: 'Ibrahim has delivered three of the most complex federal contracts in Moftech\'s history simultaneously in 2024 — each on time, each to standard. His ability to hold the confidence of both our government clients and our internal teams under that pressure is genuinely rare.',
+        managedBy: 'Board of Directors, Moftech Construzion',
+        developmentGoals: ['Formalise succession planning for key programme director roles', 'Expand Moftech\'s southern Nigeria regional presence by Q3 2025'],
       },
       {
         period: 'Annual Review — 2023', type: 'annual',
         overallRating: 'Exceeds Expectations',
         strengths: ['Project Governance', 'Business Development', 'Technical Oversight'],
-        managerComment: 'A strong year defined by the successful delivery of the Abuja Ring Road contract and the launch of our renewable energy division at scale. Ibrahim continues to set the bar for what client-focused delivery looks like at Nalot.',
-        managedBy: 'Board of Directors, Nalot Multisystems',
+        managerComment: 'A strong year defined by the successful delivery of the Abuja Ring Road contract and the launch of our renewable energy division at scale. Ibrahim continues to set the bar for what client-focused delivery looks like at Moftech.',
+        managedBy: 'Board of Directors, Moftech Construzion',
       },
     ],
     awards: [
@@ -195,7 +195,7 @@ export const staff: StaffMember[] = [
         title: 'Employee of the Year — 2024',
         description: 'Awarded in recognition of outstanding leadership on three concurrent federal government projects, delivering a combined contract value of ₦3.2 billion on schedule and within scope.',
         date: '2025-01-15',
-        grantedBy: 'Nalot Board of Directors',
+        grantedBy: 'Moftech Board of Directors',
       },
       {
         type: 'external',
@@ -213,7 +213,7 @@ export const staff: StaffMember[] = [
       },
     ],
     videos: [
-      { title: 'Nalot at Work — Site Overview, Abuja Ring Road', embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' },
+      { title: 'Moftech at Work — Site Overview, Abuja Ring Road', embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' },
     ],
     activity: [
       { type: 'article',  text: "Published \"Bridging Nigeria's Infrastructure Gap\"",           date: '2026-01-15T09:00:00' },
@@ -230,9 +230,9 @@ export const staff: StaffMember[] = [
     title: 'Head of Civil Engineering',
     department: 'Civil Engineering',
     level: 2,
-    email: 'f.usman@nalot.com.ng',
+    email: 'f.usman@moftech.com.ng',
     phone: '+234 803 000 0002',
-    bio: 'Structural and civil engineering specialist with 14 years of field experience across roads, bridges, and large-scale commercial construction in northern Nigeria. Leads a team of 6 engineers at Nalot.',
+    bio: 'Structural and civil engineering specialist with 14 years of field experience across roads, bridges, and large-scale commercial construction in northern Nigeria. Leads a team of 6 engineers at Moftech.',
     yearsExperience: 14,
     yearsWithCompany: 11,
     qualifications: [
@@ -266,14 +266,14 @@ export const staff: StaffMember[] = [
         location: 'Kaduna, Kaduna State', role: 'Lead Structural Engineer', roleType: 'lead', year: '2022',
         status: 'completed', deliveredOnTime: true,
         description: 'Led structural assessment, design, and full reconstruction of a critically degraded bridge on a key arterial route in Kaduna. The project required adaptive foundation engineering due to difficult riverside soil conditions.',
-        outcome: 'Bridge reopened to traffic on schedule. Structural approach subsequently referenced in a Nalot internal best-practice guide for riverbank foundations.',
+        outcome: 'Bridge reopened to traffic on schedule. Structural approach subsequently referenced in a Moftech internal best-practice guide for riverbank foundations.',
       },
       {
         name: 'Abuja Ring Road Phase 2 Rehabilitation',
         location: 'Abuja, FCT', role: 'Civil Engineering Lead', roleType: 'lead', year: '2023',
         status: 'completed', deliveredOnTime: true,
         description: 'Directed all civil and structural works across the 38 km rehabilitation contract, managing a site team of 12 civil engineers and overseeing quality control for sub-base, base course, and wearing course layers.',
-        outcome: 'Passed independent Ministry of Works quality inspection with zero corrective orders — the first Nalot road contract to achieve this.',
+        outcome: 'Passed independent Ministry of Works quality inspection with zero corrective orders — the first Moftech road contract to achieve this.',
       },
       {
         name: 'Commercial Tower — Maitama District',
@@ -288,16 +288,16 @@ export const staff: StaffMember[] = [
         period: 'Annual Review — 2024', type: 'annual',
         overallRating: 'Exceptional',
         strengths: ['Structural Design & Analysis', 'Site Team Leadership', 'Quality Assurance', 'Client Technical Communication'],
-        managerComment: 'Fatima has raised the standard of structural delivery at Nalot in a way that is visible to our clients. The Maitama tower was the most technically complex structural project we\'ve taken on, and her work on it was exemplary. She leads by example on every site she touches.',
-        managedBy: 'Managing Director, Nalot Multisystems',
-        developmentGoals: ['Lead Nalot\'s internal structural engineering knowledge-sharing programme', 'Pursue Fellow status with the Nigerian Society of Engineers by 2026'],
+        managerComment: 'Fatima has raised the standard of structural delivery at Moftech in a way that is visible to our clients. The Maitama tower was the most technically complex structural project we\'ve taken on, and her work on it was exemplary. She leads by example on every site she touches.',
+        managedBy: 'Managing Director, Moftech Construzion',
+        developmentGoals: ['Lead Moftech\'s internal structural engineering knowledge-sharing programme', 'Pursue Fellow status with the Nigerian Society of Engineers by 2026'],
       },
       {
         period: 'Annual Review — 2023', type: 'annual',
         overallRating: 'Exceeds Expectations',
         strengths: ['Technical Leadership', 'Quality Control Systems', 'Project Delivery'],
         managerComment: 'The Ring Road project\'s clean quality inspection result speaks for itself. Fatima\'s discipline around QA processes is something the whole civil team benefits from.',
-        managedBy: 'Managing Director, Nalot Multisystems',
+        managedBy: 'Managing Director, Moftech Construzion',
       },
     ],
     awards: [
@@ -311,9 +311,9 @@ export const staff: StaffMember[] = [
       {
         type: 'milestone',
         title: 'Promotion to Head of Civil Engineering — 2021',
-        description: 'Appointed Head of Civil Engineering following five years of consistently exceptional delivery, becoming the first woman to lead a technical department at Nalot Multisystems.',
+        description: 'Appointed Head of Civil Engineering following five years of consistently exceptional delivery, becoming the first woman to lead a technical department at Moftech Construzion.',
         date: '2021-04-01',
-        grantedBy: 'Nalot Multisystems Board',
+        grantedBy: 'Moftech Construzion Board',
       },
     ],
     videos: [],
@@ -329,9 +329,9 @@ export const staff: StaffMember[] = [
     title: 'Head of IT Infrastructure',
     department: 'IT Infrastructure',
     level: 2,
-    email: 'c.obi@nalot.com.ng',
+    email: 'c.obi@moftech.com.ng',
     phone: '+234 804 000 0003',
-    bio: "Network architect and IT infrastructure specialist with 12 years of enterprise experience. Led deployment of Nalot's largest data centre and structured cabling projects across federal government facilities.",
+    bio: "Network architect and IT infrastructure specialist with 12 years of enterprise experience. Led deployment of Moftech's largest data centre and structured cabling projects across federal government facilities.",
     yearsExperience: 12,
     yearsWithCompany: 9,
     qualifications: [
@@ -349,7 +349,7 @@ export const staff: StaffMember[] = [
       'IT Security & Compliance',
     ],
     achievements: [
-      'Nalot IT Infrastructure Project of the Year — 2024',
+      'Moftech IT Infrastructure Project of the Year — 2024',
     ],
     articles: [
       {
@@ -380,8 +380,8 @@ export const staff: StaffMember[] = [
         period: 'Annual Review — 2024', type: 'annual',
         overallRating: 'Exceeds Expectations',
         strengths: ['Technical Architecture', 'Project Management', 'Cloud Infrastructure', 'Federal Client Engagement'],
-        managerComment: 'The federal ministry overhaul was the largest IT infrastructure contract Nalot has ever managed. Chukwuemeka ran it with precision — budget, scope, timeline. His technical depth and his ability to translate complex requirements for non-technical government stakeholders is a genuine competitive asset for this company.',
-        managedBy: 'Managing Director, Nalot Multisystems',
+        managerComment: 'The federal ministry overhaul was the largest IT infrastructure contract Moftech has ever managed. Chukwuemeka ran it with precision — budget, scope, timeline. His technical depth and his ability to translate complex requirements for non-technical government stakeholders is a genuine competitive asset for this company.',
+        managedBy: 'Managing Director, Moftech Construzion',
         developmentGoals: ['Develop IT infrastructure delivery methodology for future federal contracts', 'Pursue AWS Solutions Architect certification by Q2 2025'],
       },
     ],
@@ -389,9 +389,9 @@ export const staff: StaffMember[] = [
       {
         type: 'commendation',
         title: 'IT Infrastructure Project of the Year — 2024',
-        description: 'Recognised internally for delivering the Federal Ministry IT Infrastructure Overhaul — Nalot\'s largest technology contract — on time and within budget.',
+        description: 'Recognised internally for delivering the Federal Ministry IT Infrastructure Overhaul — Moftech\'s largest technology contract — on time and within budget.',
         date: '2025-01-15',
-        grantedBy: 'Nalot Multisystems Management',
+        grantedBy: 'Moftech Construzion Management',
       },
     ],
     videos: [
@@ -411,7 +411,7 @@ export const staff: StaffMember[] = [
     title: 'Senior Civil Engineer',
     department: 'Civil Engineering',
     level: 3,
-    email: 'a.mahmud@nalot.com.ng',
+    email: 'a.mahmud@moftech.com.ng',
     phone: '+234 805 000 0004',
     bio: 'Drainage systems and roads specialist with 8 years in field delivery across northern Nigeria. Known for precision QA processes on government-contracted infrastructure projects.',
     yearsExperience: 8,
@@ -443,7 +443,7 @@ export const staff: StaffMember[] = [
         location: 'Abuja, FCT', role: 'QA Engineer', roleType: 'reviewer', year: '2023',
         status: 'completed', deliveredOnTime: true,
         description: 'Quality assurance engineer for the full 38 km road rehabilitation, responsible for materials testing, layer thickness verification, and sign-off documentation for each construction zone.',
-        outcome: 'Zero corrective orders issued by the Ministry inspection team — a first for a Nalot road contract. QA framework developed on this project adopted as the company standard.',
+        outcome: 'Zero corrective orders issued by the Ministry inspection team — a first for a Moftech road contract. QA framework developed on this project adopted as the company standard.',
       },
     ],
     performanceReviews: [
@@ -452,7 +452,7 @@ export const staff: StaffMember[] = [
         overallRating: 'Meets Expectations',
         strengths: ['Site QA Discipline', 'Documentation Accuracy', 'Field Engineering'],
         managerComment: 'Aisha\'s QA work on the Ring Road project set a standard that the whole civil team now follows. She is methodical, precise, and reliable under field pressure. The next step is to bring that same rigour into a more senior delivery role.',
-        managedBy: 'Head of Civil Engineering, Nalot Multisystems',
+        managedBy: 'Head of Civil Engineering, Moftech Construzion',
         developmentGoals: ['Take lead engineer responsibility on a drainage or road project by H2 2025', 'Complete the NSE Continuing Professional Development programme'],
       },
     ],
@@ -469,7 +469,7 @@ export const staff: StaffMember[] = [
     title: 'Senior Solar Energy Engineer',
     department: 'Renewable Energy',
     level: 3,
-    email: 't.olawale@nalot.com.ng',
+    email: 't.olawale@moftech.com.ng',
     phone: '+234 806 000 0005',
     bio: 'Solar systems designer and field engineer with 7 years of experience in off-grid, hybrid, and grid-tied solar installations across 5 Nigerian states.',
     yearsExperience: 7,
@@ -524,24 +524,24 @@ export const staff: StaffMember[] = [
         overallRating: 'Exceeds Expectations',
         strengths: ['Solar System Design', 'Field Commissioning', 'Rural Electrification', 'Multi-site Programme Delivery'],
         managerComment: 'Tunde carried the Kano microgrid from design through commissioning across all 12 sites — often working simultaneously on multiple installations. His technical judgement in the field, particularly around battery configuration in the more remote sites, made a real difference to the programme\'s success. A strong year.',
-        managedBy: 'Managing Director, Nalot Multisystems',
-        developmentGoals: ['Lead the solar engineering scope on Nalot\'s next large-scale government energy contract', 'Pursue COREN registration by Q3 2025'],
+        managedBy: 'Managing Director, Moftech Construzion',
+        developmentGoals: ['Lead the solar engineering scope on Moftech\'s next large-scale government energy contract', 'Pursue COREN registration by Q3 2025'],
       },
       {
         period: 'Annual Review — 2023', type: 'annual',
         overallRating: 'Meets Expectations',
         strengths: ['System Design Accuracy', 'Site Assessment', 'Technical Documentation'],
         managerComment: 'Tunde delivered a clean set of off-grid designs for the Kwara State health and education programme. His documentation and load profiling reports were among the most thorough we\'ve submitted to a state client. The next step is to move him into a lead role where he is managing the full engineering team on site, not just design.',
-        managedBy: 'Managing Director, Nalot Multisystems',
+        managedBy: 'Managing Director, Moftech Construzion',
       },
     ],
     awards: [
       {
         type: 'commendation',
         title: 'Renewable Energy Engineer of the Year — 2024',
-        description: 'Awarded internally in recognition of exceptional field delivery across the Kano Solar Microgrid Initiative — Nalot\'s largest renewable energy programme to date.',
+        description: 'Awarded internally in recognition of exceptional field delivery across the Kano Solar Microgrid Initiative — Moftech\'s largest renewable energy programme to date.',
         date: '2025-01-15',
-        grantedBy: 'Nalot Multisystems Management',
+        grantedBy: 'Moftech Construzion Management',
       },
     ],
     videos: [

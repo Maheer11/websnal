@@ -99,7 +99,7 @@ export default function StaffProfile() {
           </div>
           <div className="spp-stat-cell">
             <span className="spp-stat-cell__num">{member.yearsWithCompany}</span>
-            <span className="spp-stat-cell__lbl">Years at Nalot</span>
+            <span className="spp-stat-cell__lbl">Years at Moftech</span>
           </div>
           <div className="spp-stat-cell">
             <span className="spp-stat-cell__num">{member.qualifications.length}</span>

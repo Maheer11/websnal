@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 0 200 225">
+
+  <!-- ═══════════════════════════════
+       GEAR RING  (orange, 12 teeth)
+       centre (150,130) outer=88 inner=72
+  ═══════════════════════════════ -->
+  <polygon fill="#e05a2b" points="
+    135,59.6  142.3,42.3  157.7,42.3  165,59.6
+    172.3,61.5  187.2,50.3  200.5,57.9  198.2,76.5
+    203.5,81.8  222.1,79.5  229.8,92.8  218.5,107.8
+    220.4,115   237.7,122.3  237.7,137.7  220.4,145
+    218.5,152.3  229.8,167.2  222.1,180.5  203.5,178.2
+    198.2,183.5  200.5,202.1  187.2,209.8  172.3,198.5
+    165,200.4  157.7,217.7  142.3,217.7  135,200.4
+    127.7,198.5  112.8,209.8   99.5,202.1  101.8,183.5
+     96.5,178.2   77.9,180.5   70.2,167.2   81.5,152.3
+     79.6,145     62.3,137.7   62.3,122.3   79.6,115
+     81.5,107.8   70.2,92.8    77.9,79.5    96.5,81.8
+    101.8,76.5   99.5,57.9   112.8,50.3  127.7,61.5
+  "/>
+
+  <!-- Inner white circle (creates the ring / hub) -->
+  <circle cx="150" cy="130" r="66" fill="#ffffff"/>
+
+  <!-- ═══════════════════════════════
+       BUILDINGS  (navy)
+  ═══════════════════════════════ -->
+  <!-- Building 1 — tallest, leftmost -->
+  <rect x="96" y="4" width="18" height="114" fill="#1b3a6b"/>
+  <!-- windows -->
+  <rect x="99" y="10" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="10" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="99" y="18" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="18" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="99" y="26" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="26" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="99" y="34" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="34" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="99" y="42" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="42" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="99" y="50" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="50" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="99" y="58" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+  <rect x="106" y="58" width="5" height="4" rx="0.5" fill="white" opacity="0.45"/>
+
+  <!-- Building 2 — medium, centre-left -->
+  <rect x="117" y="18" width="16" height="100" fill="#1b3a6b"/>
+  <rect x="120" y="24" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="126" y="24" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="120" y="32" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="126" y="32" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="120" y="40" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="126" y="40" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="120" y="48" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="126" y="48" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="120" y="56" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="126" y="56" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="120" y="64" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+  <rect x="126" y="64" width="4" height="4" rx="0.5" fill="white" opacity="0.4"/>
+
+  <!-- ═══════════════════════════════
+       CRANE  (orange)
+  ═══════════════════════════════ -->
+  <!-- Main tower/mast with lattice look -->
+  <rect x="156" y="4" width="5" height="114" fill="#e05a2b"/>
+  <!-- Mast cross-bracing -->
+  <line x1="156" y1="14"  x2="161" y2="24"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="161" y1="14"  x2="156" y2="24"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="156" y1="34"  x2="161" y2="44"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="161" y1="34"  x2="156" y2="44"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="156" y1="54"  x2="161" y2="64"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="161" y1="54"  x2="156" y2="64"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="156" y1="74"  x2="161" y2="84"  stroke="#e05a2b" stroke-width="1.2"/>
+  <line x1="161" y1="74"  x2="156" y2="84"  stroke="#e05a2b" stroke-width="1.2"/>
+  <!-- Jib arm (long horizontal) -->
+  <rect x="108" y="1" width="74" height="5" rx="1.5" fill="#e05a2b"/>
+  <!-- Diagonal stay from mast top to jib tip -->
+  <line x1="158.5" y1="4" x2="182" y2="6" stroke="#e05a2b" stroke-width="2"/>
+  <!-- Counter-jib (short, right) -->
+  <rect x="161" y="1" width="22" height="4" rx="1" fill="#e05a2b"/>
+  <!-- Crane cabin -->
+  <rect x="152" y="5" width="12" height="8" rx="1" fill="#1b3a6b"/>
+  <!-- Hook cable -->
+  <line x1="130" y1="6" x2="130" y2="28" stroke="#e05a2b" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M127,26 Q130,32 133,26" stroke="#e05a2b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- ═══════════════════════════════
+       MC MONOGRAM
+  ═══════════════════════════════ -->
+  <!-- C — large orange arc, centre (165,133) outer r=52 inner r=37, gap ±45° -->
+  <path
+    d="M 201.8,96.2
+       A 52,52 0 1 0 201.8,169.8
+       L 188.2,157.8
+       A 37,37 0 1 1 188.2,108.2
+       Z"
+    fill="#e05a2b"
+  />
+
+  <!-- M — right edge touches inner-left wall of C (x = 165-37 = 128)
+       font-size bumped to 78 for clear visibility -->
+  <text
+    x="126" y="160"
+    text-anchor="end"
+    font-family="'Barlow Condensed', Arial Black, Impact, sans-serif"
+    font-size="78"
+    font-weight="900"
+    fill="#1b3a6b"
+  >M</text>
+
+
+</svg>

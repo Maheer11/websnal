@@ -4,8 +4,13 @@ import { useState, useEffect } from 'react'
 import {
   HardHat, Building2, Server, Sun, Briefcase,
   CheckCircle, Layers, Shield, Users,
-  Hammer, Zap, ClipboardCheck, Globe,
 } from 'lucide-react'
+import accredNia    from '../assets/images/accred-nia.svg'
+import accredQsrbn  from '../assets/images/accred-qsrbn.svg'
+import accredCorbon from '../assets/images/accred-corbon.svg'
+import accredCoren  from '../assets/images/accred-coren.svg'
+import accredNiob   from '../assets/images/accred-niob.svg'
+import accredRuscon from '../assets/images/accred-ruscon.svg'
 import site1 from '../assets/images/siteimage1.jpg'
 import site2 from '../assets/images/siteimage2.jpg'
 import site3 from '../assets/images/siteimage3.jpg'
@@ -29,11 +34,41 @@ const stats = [
 ]
 
 const services = [
-  { Icon: HardHat, title: 'Civil Engineering', desc: 'Roads, bridges, drainage systems, and structural works built to the highest standards.' },
-  { Icon: Building2, title: 'High-Rise Buildings', desc: 'Commercial and residential construction with precision engineering and quality materials.' },
-  { Icon: Server, title: 'IT Infrastructure', desc: 'Network design, server deployment, structured cabling, and IT consulting services.' },
-  { Icon: Sun, title: 'Solar Installation', desc: 'Renewable energy solutions — off-grid, hybrid, and grid-tied solar systems for homes and businesses.' },
-  { Icon: Briefcase, title: 'Government Contracts', desc: 'Experienced in executing federal and state government projects with full compliance and transparency.' },
+  {
+    Icon: HardHat,
+    title: 'Civil Engineering',
+    desc: 'Roads, bridges, drainage systems, and structural works built to the highest standards.',
+    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=85',
+    tag: 'Roads · Bridges · Drainage',
+  },
+  {
+    Icon: Building2,
+    title: 'High-Rise Buildings',
+    desc: 'Commercial and residential construction with precision engineering and quality materials.',
+    img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=700&q=85',
+    tag: 'Commercial · Residential',
+  },
+  {
+    Icon: Server,
+    title: 'IT Infrastructure',
+    desc: 'Network design, server deployment, structured cabling, and IT consulting services.',
+    img: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=85',
+    tag: 'Networks · Data Centres',
+  },
+  {
+    Icon: Sun,
+    title: 'Solar Installation',
+    desc: 'Renewable energy solutions — off-grid, hybrid, and grid-tied solar systems for homes and businesses.',
+    img: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=700&q=85',
+    tag: 'Off-grid · Hybrid · Grid-tied',
+  },
+  {
+    Icon: Briefcase,
+    title: 'Government Contracts',
+    desc: 'Experienced in executing federal and state government projects with full compliance and transparency.',
+    img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=85',
+    tag: 'Federal · State · Agencies',
+  },
 ]
 
 const reasons = [
@@ -43,18 +78,37 @@ const reasons = [
   { Icon: Users, title: 'Client-First Approach', desc: 'We listen, plan, and deliver exactly what our clients envision.' },
 ]
 
-const goals = [
-  { Icon: Hammer, title: 'Build Lasting Infrastructure', desc: 'Engineering roads, buildings and systems Nigeria can rely on for generations.' },
-  { Icon: Zap, title: 'Power the Future', desc: 'Deploying renewable energy and smart IT to drive progress in every community.' },
-  { Icon: ClipboardCheck, title: 'Deliver on Every Promise', desc: 'On time, within budget, and to the highest standard — always.' },
-  { Icon: Globe, title: 'Grow Nigerian Excellence', desc: 'Creating local jobs, building capacity and leaving a legacy of impact.' },
-]
 
 const projects = [
-  { title: 'Abuja Road Rehabilitation', category: 'Civil Engineering', year: '2023' },
-  { title: 'Corporate HQ Data Centre', category: 'IT Infrastructure', year: '2023' },
-  { title: 'Solar Microgrid – Kano', category: 'Renewable Energy', year: '2024' },
-  { title: 'Federal Ministry Office Block', category: 'Building Construction', year: '2024' },
+  { title: 'Abuja Road Rehabilitation', category: 'Civil Engineering', year: '2023',
+    img: 'https://images.unsplash.com/photo-1621955511293-5e3dc7b97b07?auto=format&fit=crop&w=800&q=80' },
+  { title: 'Corporate HQ Data Centre', category: 'IT Infrastructure', year: '2023',
+    img: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80' },
+  { title: 'Solar Microgrid – Kano', category: 'Renewable Energy', year: '2024',
+    img: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80' },
+  { title: 'Federal Ministry Office Block', category: 'Building Construction', year: '2024',
+    img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80' },
+]
+
+const testimonials = [
+  {
+    quote: "Moftech delivered our federal road contract three weeks ahead of schedule. That is unprecedented in our experience with contractors.",
+    name: "Engr. Bello Musa",
+    role: "Director, Federal Ministry of Works",
+    avatar: "B",
+  },
+  {
+    quote: "From structured cabling to the full data centre build — the IT team at Moftech exceeded every specification we gave them.",
+    name: "Adaeze Okonkwo",
+    role: "CTO, Sterling Financial Group",
+    avatar: "A",
+  },
+  {
+    quote: "The solar microgrid project was complex. Moftech brought the expertise and the manpower to execute it seamlessly across 12 sites.",
+    name: "Alhaji S. Danbatta",
+    role: "Commissioner, Kano State Energy Office",
+    avatar: "S",
+  },
 ]
 
 function HeroSlider() {
@@ -148,7 +202,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="hero__sub">
-            Nalot Multisystems Limited delivers civil engineering, IT infrastructure,
+            Moftech Construzion Ltd. delivers civil engineering, IT infrastructure,
             and renewable energy across Nigeria — one company, every solution, zero compromise.
           </p>
           <div className="hero__actions">
@@ -174,21 +228,32 @@ export default function Home() {
         </div>
         <HeroSlider />
 
-        {/* ── Goals strip — spans both columns ── */}
-        <div className="hero__goals">
-          <div className="hero__goals__inner">
-            {goals.map(({ Icon, title, desc }, i) => (
-              <Fragment key={title}>
-                <div className="hero__goal">
-                  <span className="hero__goal__icon"><Icon size={18} strokeWidth={1.75} /></span>
-                  <div>
-                    <strong>{title}</strong>
-                    <p>{desc}</p>
-                  </div>
-                </div>
-                {i < goals.length - 1 && <div className="hero__goals__divider" />}
-              </Fragment>
-            ))}
+        {/* ── Accreditations strip — spans both columns ── */}
+        <div className="hero__accreds">
+          <div className="hero__accreds__inner">
+            <div className="hero__accreds__prefix">
+              <span className="hero__accreds__build">BUILD</span>
+              <span className="hero__accreds__with">WITH OUR</span>
+            </div>
+            <div className="hero__accreds__divider-v" />
+            <div className="hero__accreds__body">
+              <div className="hero__accreds__disciplines">
+                {['Architects', 'Cost Consultants', 'Builders', 'Engineers', 'Surveyors'].map((d, i, arr) => (
+                  <Fragment key={d}>
+                    <span className="hero__accreds__discipline">{d}</span>
+                    {i < arr.length - 1 && <span className="hero__accreds__pipe">|</span>}
+                  </Fragment>
+                ))}
+              </div>
+              <div className="hero__accreds__logos">
+                <img src={accredNia}    alt="NIA"    className="hero__accreds__logo hero__accreds__logo--circle" />
+                <img src={accredQsrbn}  alt="ACON"   className="hero__accreds__logo hero__accreds__logo--circle" />
+                <img src={accredCorbon} alt="CORBON" className="hero__accreds__logo hero__accreds__logo--coat" />
+                <img src={accredCoren}  alt="COREN"  className="hero__accreds__logo hero__accreds__logo--rect" />
+                <img src={accredNiob}   alt="NIOB"   className="hero__accreds__logo hero__accreds__logo--circle" />
+                <img src={accredRuscon} alt="SURCON" className="hero__accreds__logo hero__accreds__logo--circle" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -212,18 +277,27 @@ export default function Home() {
             <span className="section-eyebrow">What We Do</span>
             <h2 className="section-title">Five Sectors. One Partner.</h2>
             <p className="section-sub">
-              From roads and high-rises to server rooms and solar panels — Nalot Multisystems is the only partner you need.
+              From roads and high-rises to server rooms and solar panels — Moftech Construzion is the only partner you need.
             </p>
           </div>
           <div className="services-grid">
-            {services.map(({ Icon, title, desc }) => (
+            {services.map(({ Icon, title, desc, img, tag }) => (
               <div key={title} className="service-card">
-                <div className="service-card__icon">
-                  <Icon size={22} strokeWidth={1.75} />
+                <div
+                  className="service-card__img"
+                  style={{ backgroundImage: `url(${img})` }}
+                >
+                  <div className="service-card__img-overlay" />
+                  <span className="service-card__img-tag">{tag}</span>
+                  <div className="service-card__img-icon">
+                    <Icon size={18} strokeWidth={1.75} />
+                  </div>
                 </div>
-                <h3 className="service-card__title">{title}</h3>
-                <p className="service-card__desc">{desc}</p>
-                <Link to="/services" className="service-card__link">Learn more →</Link>
+                <div className="service-card__body">
+                  <h3 className="service-card__title">{title}</h3>
+                  <p className="service-card__desc">{desc}</p>
+                  <Link to="/services" className="service-card__link">Learn more →</Link>
+                </div>
               </div>
             ))}
           </div>
@@ -234,10 +308,10 @@ export default function Home() {
       <section className="section why-section">
         <div className="container why-section__inner">
           <div className="why-section__text">
-            <span className="section-eyebrow">Why Nalot</span>
+            <span className="section-eyebrow">Why Moftech</span>
             <h2 className="section-title">One Company. Every Capability.</h2>
             <p className="section-sub">
-              No contractor juggling, no coordination gaps — Nalot brings civil, digital and energy expertise under one roof, so your project moves faster and costs less.
+              No contractor juggling, no coordination gaps — Moftech brings civil, digital and energy expertise under one roof, so your project moves faster and costs less.
             </p>
             <Link to="/about" className="btn btn--primary" style={{ marginTop: '24px' }}>
               About Us
@@ -259,18 +333,46 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Testimonials ── */}
+      <section className="section testimonials-section">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-eyebrow">Client Voices</span>
+            <h2 className="section-title" style={{ color: '#fff' }}>Trusted by Government &amp; Industry</h2>
+            <p className="section-sub" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              What our clients say after we deliver.
+            </p>
+          </div>
+          <div className="testimonials-grid">
+            {testimonials.map(({ quote, name, role, avatar }) => (
+              <div key={name} className="testimonial-card">
+                <div className="testimonial-card__quote-mark">"</div>
+                <p className="testimonial-card__quote">{quote}</p>
+                <div className="testimonial-card__author">
+                  <span className="testimonial-card__avatar">{avatar}</span>
+                  <div>
+                    <strong className="testimonial-card__name">{name}</strong>
+                    <span className="testimonial-card__role">{role}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Portfolio Teaser ── */}
       <section className="section portfolio-section">
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow">Our Work</span>
-            <h2 className="section-title">Built by Nalot</h2>
+            <h2 className="section-title">Built by Moftech</h2>
             <p className="section-sub">From federal contracts to private developments — here's a snapshot of our most recent deliveries.</p>
           </div>
           <div className="projects-grid">
-            {projects.map(({ title, category, year }) => (
+            {projects.map(({ title, category, year, img }) => (
               <div key={title} className="project-card">
-                <div className="project-card__img" />
+                <div className="project-card__img" style={{ backgroundImage: `url(${img})` }} />
                 <div className="project-card__body">
                   <span className="project-card__cat">{category}</span>
                   <h3 className="project-card__title">{title}</h3>
@@ -288,9 +390,9 @@ export default function Home() {
       {/* ── CTA Banner ── */}
       <section className="cta-banner">
         <div className="cta-banner__inner">
-          <h2 className="cta-banner__title">Let's Build Something That Lasts.</h2>
+          <h2 className="cta-banner__title">Let's build something<br />that lasts.</h2>
           <p className="cta-banner__sub">
-            Whether it's a road, a data centre, or a solar farm — tell us your vision and Nalot will deliver it.
+            Whether it's a road, a data centre, or a solar farm — tell us your vision and Moftech will deliver it.
           </p>
           <div className="cta-banner__actions">
             <Link to="/quote" className="btn btn--primary btn--lg">Get a Free Quote</Link>

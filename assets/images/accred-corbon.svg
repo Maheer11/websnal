@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110">
+  <!-- Nigerian Coat of Arms style -->
+  <!-- Eagle on top -->
+  <ellipse cx="50" cy="12" rx="7" ry="5" fill="#1b1b1b"/>
+  <!-- Eagle wings spread -->
+  <path d="M20,18 Q35,10 50,15 Q65,10 80,18 Q65,22 50,20 Q35,22 20,18Z" fill="#1b1b1b"/>
+  <!-- Eagle head detail -->
+  <circle cx="50" cy="10" r="4" fill="#1b1b1b"/>
+  <polygon points="50,7 53,10 50,13" fill="#e8b84b"/>
+  <!-- Shield -->
+  <path d="M32,22 L32,58 Q50,68 68,58 L68,22 Z" fill="#ffffff" stroke="#1b3a6b" stroke-width="1.5"/>
+  <!-- Black Y / wavy lines on shield (Niger-Benue confluence) -->
+  <path d="M50,22 L50,40" stroke="#1b1b1b" stroke-width="5"/>
+  <path d="M33,25 Q40,32 50,40" stroke="#1b1b1b" stroke-width="4" fill="none"/>
+  <path d="M67,25 Q60,32 50,40" stroke="#1b1b1b" stroke-width="4" fill="none"/>
+  <!-- White horses as supporters -->
+  <!-- Left horse -->
+  <ellipse cx="24" cy="52" rx="8" ry="6" fill="#ffffff" stroke="#888" stroke-width="0.8"/>
+  <circle cx="20" cy="46" r="4" fill="#ffffff" stroke="#888" stroke-width="0.8"/>
+  <line x1="19" y1="58" x2="17" y2="66" stroke="#888" stroke-width="1.5"/>
+  <line x1="23" y1="58" x2="22" y2="66" stroke="#888" stroke-width="1.5"/>
+  <line x1="27" y1="57" x2="27" y2="65" stroke="#888" stroke-width="1.5"/>
+  <line x1="30" y1="56" x2="31" y2="64" stroke="#888" stroke-width="1.5"/>
+  <!-- Right horse -->
+  <ellipse cx="76" cy="52" rx="8" ry="6" fill="#ffffff" stroke="#888" stroke-width="0.8"/>
+  <circle cx="80" cy="46" r="4" fill="#ffffff" stroke="#888" stroke-width="0.8"/>
+  <line x1="81" y1="58" x2="83" y2="66" stroke="#888" stroke-width="1.5"/>
+  <line x1="77" y1="58" x2="78" y2="66" stroke="#888" stroke-width="1.5"/>
+  <line x1="73" y1="57" x2="73" y2="65" stroke="#888" stroke-width="1.5"/>
+  <line x1="70" y1="56" x2="69" y2="64" stroke="#888" stroke-width="1.5"/>
+  <!-- Green base/wreath -->
+  <path d="M28,66 Q50,75 72,66 L72,72 Q50,82 28,72 Z" fill="#2e7d32"/>
+  <!-- Motto ribbon -->
+  <rect x="20" y="78" width="60" height="12" rx="2" fill="#1b3a6b"/>
+  <text x="50" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" font-weight="700" fill="#ffffff" letter-spacing="0.5">UNITY AND FAITH</text>
+  <!-- CORBON text -->
+  <text x="50" y="105" text-anchor="middle" font-family="Georgia, serif" font-size="8" font-weight="900" fill="#1b3a6b" letter-spacing="1">CORBON</text>
+</svg>

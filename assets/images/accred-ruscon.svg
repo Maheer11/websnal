@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Outer ring — matches surveyors council colours -->
+  <circle cx="50" cy="50" r="48" fill="#ffffff" stroke="#1b3a6b" stroke-width="3.5"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#1b3a6b" stroke-width="0.8"/>
+  <circle cx="50" cy="50" r="36" fill="#f0f4f8"/>
+  <!-- Text paths -->
+  <path id="sc-top" d="M 9,50 a41,41 0 0,1 82,0" fill="none"/>
+  <path id="sc-bot" d="M 91,50 a41,41 0 0,1 -82,0" fill="none"/>
+  <text font-family="Georgia, serif" font-size="6.2" font-weight="700" fill="#1b3a6b" letter-spacing="1">
+    <textPath href="#sc-top" startOffset="5%">SURVEYORS COUNCIL OF NIGERIA</textPath>
+  </text>
+  <text font-family="Georgia, serif" font-size="6" font-weight="600" fill="#e05a2b" letter-spacing="1">
+    <textPath href="#sc-bot" startOffset="24%">SURCON</textPath>
+  </text>
+  <!-- Theodolite / survey instrument icon -->
+  <!-- Tripod legs -->
+  <line x1="50" y1="46" x2="36" y2="62" stroke="#1b3a6b" stroke-width="1.5"/>
+  <line x1="50" y1="46" x2="64" y2="62" stroke="#1b3a6b" stroke-width="1.5"/>
+  <line x1="50" y1="46" x2="50" y2="62" stroke="#1b3a6b" stroke-width="1.5"/>
+  <!-- Instrument body -->
+  <rect x="43" y="36" width="14" height="10" rx="2" fill="#1b3a6b"/>
+  <!-- Telescope -->
+  <rect x="38" y="38" width="24" height="4" rx="1.5" fill="#e05a2b"/>
+  <!-- Level bubble -->
+  <circle cx="50" cy="33" r="4" fill="none" stroke="#1b3a6b" stroke-width="1.2"/>
+  <circle cx="50" cy="33" r="1.5" fill="#1b3a6b"/>
+  <!-- SURCON text -->
+  <text x="50" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="7.5" font-weight="900" fill="#1b3a6b" letter-spacing="1">SURCON</text>
+</svg>

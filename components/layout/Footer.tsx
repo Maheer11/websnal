@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../../assets/images/nalotlogo.jpg'
+import logo from '../../assets/images/moftechlogo.svg'
 import './Footer.css'
 
 const services = ['IT Infrastructure', 'Road Construction', 'High-Rise Buildings', 'Solar Installation', 'Government Contracts']
@@ -20,18 +20,16 @@ export default function Footer() {
 
           <div className="footer__brand">
             <div className="footer__logo">
-              <img src={logo} alt="Nalot logo" className="footer__logo-mark" />
+              <img src={logo} alt="Moftech logo" className="footer__logo-mark" />
               <div>
-                <div className="footer__brand-name">Nalot Multisystems</div>
+                <div className="footer__brand-name">Moftech Construzion</div>
                 <div className="footer__brand-sub">Limited</div>
               </div>
             </div>
-            <p className="footer__tagline">
-              Strong Foundations. Smarter Solutions.
-            </p>
+            <p className="footer__tagline">Building the Future.</p>
             <p className="footer__desc">
-              A multi-sector company delivering excellence in civil engineering,
-              IT infrastructure, and renewable energy across Nigeria.
+              Architects, builders, engineers & surveyors — delivering construction
+              excellence across Nigeria from our base in Abuja.
             </p>
             <div className="footer__socials">
               <a href="#" aria-label="LinkedIn" className="footer__social-link">in</a>
@@ -67,15 +65,15 @@ export default function Footer() {
             <ul className="footer__contact-list">
               <li>
                 <span className="footer__contact-icon">📍</span>
-                <span>Abuja, Nigeria</span>
+                <span>Block 5 Flat 2, Kagoro Close, Area 2 Garki, Abuja</span>
               </li>
               <li>
                 <span className="footer__contact-icon">📞</span>
-                <span>+234 800 000 0000</span>
+                <span>08099249693 / 08052628492</span>
               </li>
               <li>
                 <span className="footer__contact-icon">✉️</span>
-                <span>info@nalotmultisystems.com</span>
+                <span>info@moftechconstruzion.com</span>
               </li>
             </ul>
             <Link to="/quote" className="btn btn--primary footer__quote-btn">
@@ -88,7 +86,7 @@ export default function Footer() {
 
       <div className="footer__bottom">
         <div className="footer__bottom-inner">
-          <p>© {new Date().getFullYear()} Nalot Multisystems Limited. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Moftech Construzion Ltd. All rights reserved.</p>
           <div className="footer__bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

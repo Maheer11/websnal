@@ -9,6 +9,7 @@ import Quote from './pages/Quote'
 import Careers from './pages/Careers'
 import StaffDevelopment from './pages/StaffDevelopment'
 import StaffProfile from './pages/StaffProfile'
+import Blog from './pages/Blog'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/staff-development" element={<StaffDevelopment />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/services/staff-development/:id" element={<StaffProfile />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
